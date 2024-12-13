@@ -1,0 +1,18 @@
+{
+  "tabWidth": 4,
+  "useTabs": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "printWidth": 100,
+  "overrides": [
+    {
+      "files": [".prettierrc", "*.json", "*.yaml", "*.yml"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": false
+      }
+    }
+  ],
+  "plugins": []
+}
