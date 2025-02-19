@@ -1,4 +1,4 @@
-interface MarkdownType {
+export interface MarkdownType {
 	attributes: Record<string, unknown>;
 	body: string;
 }
