@@ -5,7 +5,7 @@ export default function MarkdownPlugin(): Plugin {
 	const splitMarkdown = (src: string) => {
 		const { attributes, body } = fm(src);
 		const markdownObject = {
-			frontmatter: attributes,
+			attributes,
 			body,
 		};
 
