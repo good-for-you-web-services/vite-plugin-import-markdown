@@ -2,7 +2,7 @@
 	"name": "@goodforyou/vite-plugin-markdown-import",
 	"description": "Vite plugin to import markdown files with support for front-matter",
 	"private": false,
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/good-for-you-web-services/vite-plugin-import-markdown"
