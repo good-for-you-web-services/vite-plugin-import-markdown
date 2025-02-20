@@ -4,5 +4,6 @@ export interface MarkdownType {
 }
 
 declare module '*.md' {
-	export default MarkdownType;
+	const value: MarkdownType;
+	export default value;
 }
