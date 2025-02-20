@@ -1,11 +1,26 @@
 {
 	"name": "@goodforyou/vite-plugin-markdown-import",
 	"description": "Vite plugin to import markdown files with support for front-matter",
-	"private": false,
 	"version": "1.2.2",
+	"keywords": [
+		"vite",
+		"vite-plugin",
+		"markdown",
+		"front-matter"
+	],
+	"private": false,
+	"license": "GPL-3.0-only",
+	"author": {
+		"name": "Nick Cunningham",
+		"url": "https://github.com/TheNickOfTime"
+	},
+	"funding": "https://buymeacoffee.com/thenickoftime",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/good-for-you-web-services/vite-plugin-import-markdown"
+	},
+	"bugs": {
+		"url": "https://github.com/good-for-you-web-services/vite-plugin-import-markdown/issues"
 	},
 	"type": "module",
 	"main": "./dist/index.js",
@@ -27,12 +42,6 @@
 	"files": [
 		"dist",
 		"client.d.ts"
-	],
-	"keywords": [
-		"vite",
-		"vite-plugin",
-		"markdown",
-		"front-matter"
 	],
 	"devDependencies": {
 		"@types/node": "^22.8.6",
