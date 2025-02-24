@@ -1,7 +1,7 @@
 {
 	"name": "@goodforyou/vite-plugin-markdown-import",
 	"description": "Vite plugin to import markdown files with support for front-matter",
-	"version": "1.2.6",
+	"version": "1.2.7",
 	"keywords": [
 		"vite",
 		"vite-plugin",
