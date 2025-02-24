@@ -1,9 +1,4 @@
-export interface MarkdownType {
-	attributes: Record<string, unknown>;
-	body: string;
-}
-
 declare module '*.md' {
-	const value: MarkdownType;
+	const value: import('./dist').MarkdownType;
 	export default value;
 }
