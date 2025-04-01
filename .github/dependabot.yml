@@ -11,6 +11,8 @@ updates:
       interval: "monthly"
       time: "05:00"
       timezone: "America/Los_Angeles"
+    assignees:
+      - good-for-you-web-services/admin
     groups:
       security-updates:
         applies-to: security-updates
